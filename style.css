@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;   
+}
+/* header */
+.header {
+    height: 100vh;
+    background-color: black;
+}
+
+
+/* footer */
+.footer {
+    height: 80vh;
+    background-color: #1a1234;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    overflow-x: auto;
+}
+
+/* about us */
+.follow {
+    width: clamp(10vmin,50vmin,55vmin);
+    height: clamp(15vmin,60vmin,65vmin);
+    padding-top: 2rem;
+    color: rgb(0, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: clamp(0.8rem,2vw,2.2rem);
+    gap: 1rem;
+    margin: 3rem 0 3.3rem;
+    border-right: 1px solid rgba(0,255,255,0.5);
+}
+
+.follow p{
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: clamp(0.5rem,1.2vw,1.2rem);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.followlink {
+    width: 40vmin;
+    display:flex;
+    justify-content: center;
+    gap: 0rem;
+}
+
+.picture {
+    width: clamp(2rem,7rem,8rem);
+    height: clamp(2rem,7rem,8rem);
+}
+
+a:hover {
+    color: aqua;
+}
+
+/* pages */
+.pages{
+    width: clamp(10vmin,30vmin,35vmin);
+    height: clamp(15vmin,60vmin,65vmin);
+    font-size: clamp(0.6rem,1.5vw,2.2rem);
+    margin: 1rem 0 3rem;
+    border-right: 1px solid rgba(0,255,255,0.5);
+}
+
+.underline{
+    width: clamp(1.8rem,3.8vw,4rem);
+    height: 1px;
+    background-color: rgba(0,255,255,0.5);
+    margin: 0.6rem 0 0.6rem 0;
+    background: linear-gradient(to right,transparent,rgba(0, 229, 255, 0.7), rgba(0, 229, 255, 0.7),transparent);
+}
+
+ul,ol {
+    list-style: none;
+    color: aqua;
+}
+
+li {
+    font-size: clamp(0.6rem,1.4vw,2.2rem);
+    color: aliceblue;
+}
+
+ul i{
+    font-size: small;
+}
+
+li:hover {
+    color:aqua;
+    cursor: pointer;
+}
+
+.donate {
+    width: clamp(10vmin,30vmin,30vmin);
+    height: 18vh;
+    margin-top: 10vmin;
+    margin-left: -2rem;
+    padding-top: 0.7rem;
+    text-align: left;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: clamp(0.6rem,1.4vw,2.2rem);
+    border-radius: 8%;
+    background: radial-gradient(circle, #0088cc 0%, #332954 100% );
+}
+
+.donhand {
+    font-size: 3.3vw;
+    margin-left: 1%;
+    margin-top: -2%;
+}
+
+.donate h5{
+    font-size: 2vmin;
+    font-weight: 600;
+    margin-left: 0.8vmin;
+    margin-top: 1.8vmin;
+}
+
+.donate p{
+    font-size: clamp(0.9rem,1.2vw,2rem);
+    margin-left: 5vmin;
+    margin-top: -2vmin;
+}
+
+.donateus {
+    width: clamp(10vmin,15vmin,15vmin);
+    height: clamp(1vmin,3.5vmin,4vmin); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: clamp(0.5rem,1vw,2rem);
+    background-color: rgba(0, 255, 255, 0.836);
+    margin-left: 25%;
+}
+
+/* useful links */
+.usefullinks {
+    width: clamp(10vmin,30vmin,35vmin);
+    height: clamp(15vmin,60vmin,65vmin);
+    font-size: clamp(0.6rem,1.5vw,2.2rem);
+    margin: 1rem 0 3rem 3rem;
+    border-right: 1px solid rgba(0,255,255,0.5); 
+}
+
+/* contact us */
+.contact {
+    width: clamp(10vmin,30vmin,35vmin);
+    height: clamp(15vmin,60vmin,65vmin);
+    font-size: clamp(0.6rem,1.5vw,2.2rem);
+    margin: 1rem 0 3rem ;   
+}
