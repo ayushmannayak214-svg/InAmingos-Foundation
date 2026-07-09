@@ -78,7 +78,7 @@ body {
 
 .description {
     margin-left: 30vw;
-    font-size: 1rem;
+    font-size: 1rem;    
 }
 /* footer */
 #footer {
@@ -230,7 +230,7 @@ li:hover {
     margin: 1rem 0 3rem ;   
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .top-bar {
         height: auto;
         padding: 0.8rem 1rem;
@@ -334,4 +334,4 @@ li:hover {
         width: 100%;
         margin-left: 0;
     }
-}
+} */
