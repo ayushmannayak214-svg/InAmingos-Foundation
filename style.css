@@ -1,7 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0;   
 }
 
 html {
@@ -14,51 +13,43 @@ body {
 
 /* header */
 .header {
-    width: 100%;
+    width: 100vw;
 }
 
-#home img {
-    width: 100%;
-    height: auto;
-    display: block;
+#home img{
+    width: 100vw;
 }
-
 .top-bar {
     width: 100%;
-    min-height: 60px;
-    padding: 0.8rem 1rem;
+    height: 5.3vw;
     background-color: #232F3E;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     color: white;
-    gap: 0.8rem;
-    flex-wrap: wrap;
 }
 
-.top-bar img {
-    height: clamp(2.5rem, 5vw, 3.5rem);
+.top-bar img{
+    height: 5vw;
     width: auto;
-    margin-left: 0;
+    margin-left: 8%;
 }
 
 .top-bar h1 {
-    font-size: clamp(1rem, 2vw, 2rem);
+    font-size: clamp(0.4rem,2vw,2rem);
 }
 
 .navbar {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 0.5rem 1rem;
 }
 
 .nav-link {
     display: flex;
-    font-size: clamp(0.9rem, 1.4vw, 1.1rem);
+    font-size: clamp(0.4rem,1.4vw,2rem);
     text-decoration: none;
-    margin-right: 0;
+    margin-right: 20px;
 }
 
 .nav-link:hover {
@@ -72,22 +63,13 @@ body {
     background-color: #d7d7d7;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    padding: 2rem 1rem;
 }
 
 .pic {
-    margin: 0;
-    flex: 1 1 18rem;
-    display: flex;
-    justify-content: center;
+    margin: 10vmin 10vmin 10vmin 10vmin;
 }
-
-.pic img {
-    width: min(40vmin, 320px);
-    max-width: 100%;
+.pic img{
+    width: 40vmin;
     background-color: #000d71;
     background: radial-gradient(circle,#000528 0%, #000d71 100%);
     border: 5px solid rgb(26, 34, 35);
@@ -95,14 +77,12 @@ body {
 }
 
 .description {
-    margin-left: 0;
-    flex: 1 1 22rem;
-    max-width: 36rem;
-    font-size: clamp(0.6rem,1.6vw,2rem);
+    margin-left: 5vmin;
+    font-size: clamp(0.6rem,1.6vw,2rem); 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 0;
+    padding-top: 3vmin;
 }
 
 .description h3{
@@ -120,17 +100,17 @@ body {
 }
 
 .short {
-    width: min(100%, 90vmin);
+    width: 90vmin;
     height: 18vmin;
 }
 
 .mission {
-    width: min(100%, 78vmin);
+    width: 78vmin;
     height: 15vmin;
 }
 
 .vision {
-    width: min(100%, 75vmin);
+    width: 75vmin;
     height: 13vmin;
 }
 
@@ -143,13 +123,11 @@ body {
 }
 
 #but {
-    width: min(19vmin, 180px);
-    height: auto;
-    min-height: 48px;
-    padding: 0.8rem 1rem;
-    font-size: clamp(0.7rem,1.4vw,1rem);
+    width: 19vmin;
+    height: 13vmin;
+    font-size: clamp(0.6rem,1.4vw,1.4vw);
     color:white;
-    background-color: #000d71;
+    background-color: #000d71;  
     border: none;
     border-right: 1px solid white;
 }
@@ -170,21 +148,19 @@ body {
 }
 /* footer */
 #footer {
-    min-height: 80vh;
+    height: 80vh;
     background-color: #1a1234;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
-    padding: 2rem 1rem;
-    overflow-x: hidden;
+    gap: 4rem;
+    overflow-x: auto;
 }
 
 /* about us */
 .follow {
-    width: min(100%, 22rem);
-    flex: 1 1 16rem;
-    min-height: 16rem;
+    width: clamp(10vmin,50vmin,55vmin);
+    height: clamp(15vmin,60vmin,65vmin);
     padding-top: 2rem;
     color: rgb(0, 255, 255);
     display: flex;
@@ -192,7 +168,7 @@ body {
     align-items: center;
     font-size: clamp(0.8rem,2vw,2.2rem);
     gap: 1rem;
-    margin: 0;
+    margin: 3rem 0 3.3rem;
     border-right: 1px solid rgba(0,255,255,0.5);
 }
 
@@ -209,7 +185,7 @@ a {
 }
 
 .followlink {
-    width: min(100%, 20rem);
+    width: 40vmin;
     display:flex;
     justify-content: center;
     gap: 0rem;
@@ -225,12 +201,11 @@ a:hover {
 }
 
 /* pages */
-.pages {
-    width: min(100%, 16rem);
-    flex: 1 1 12rem;
-    min-height: 16rem;
+.pages{
+    width: clamp(10vmin,30vmin,35vmin);
+    height: clamp(15vmin,60vmin,65vmin);
     font-size: clamp(0.6rem,1.5vw,2.2rem);
-    margin: 0;
+    margin: 1rem 0 3rem;
     border-right: 1px solid rgba(0,255,255,0.5);
 }
 
@@ -262,11 +237,11 @@ li:hover {
 }
 
 .donate {
-    width: min(100%, 16rem);
-    min-height: 9rem;
-    margin-top: 1rem;
-    margin-left: 0;
-    padding: 0.7rem 1rem;
+    width: clamp(10vmin,30vmin,30vmin);
+    height: 18vh;
+    margin-top: 10vmin;
+    margin-left: -2rem;
+    padding-top: 0.7rem;
     text-align: left;
     color: aliceblue;
     display: flex;
@@ -307,19 +282,17 @@ li:hover {
 
 /* useful links */
 .usefullinks {
-    width: min(100%, 16rem);
-    flex: 1 1 12rem;
-    min-height: 16rem;
+    width: clamp(10vmin,30vmin,35vmin);
+    height: clamp(15vmin,60vmin,65vmin);
     font-size: clamp(0.6rem,1.5vw,2.2rem);
-    margin: 0;
-    border-right: 1px solid rgba(0,255,255,0.5);
+    margin: 1rem 0 3rem 3rem;
+    border-right: 1px solid rgba(0,255,255,0.5); 
 }
 
 /* contact us */
 .contact {
-    width: min(100%, 16rem);
-    flex: 1 1 12rem;
-    min-height: 16rem;
+    width: clamp(10vmin,30vmin,35vmin);
+    height: clamp(15vmin,60vmin,65vmin);
     font-size: clamp(0.6rem,1.5vw,2.2rem);
-    margin: 0;
+    margin: 1rem 0 3rem ;   
 }
