@@ -91,7 +91,7 @@ body {
 }
 
 #describe {
-    font-size: clamp(0.6rem,1.3vw,1.4vw);
+    font-size: clamp(0.6rem,1.2vw,1.4vw);
     color: aliceblue;
     border-radius: 1.6rem;
     background: radial-gradient(circle, #0088cc 0%, #332954 100% );
